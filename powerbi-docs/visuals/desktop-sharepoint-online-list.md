@@ -34,4 +34,12 @@ TODO: image
 10. On the left hand side of the page, click the checkbox beside the SharePoint list you want to connect to.
 11. Click *Load*.  Power BI will load your list data into a new report.
 
+# Step 2: Create a report
 
+1. On the left hand side, click the *Data* icon to see your SharePoint list data that was loaded.
+2. Make sure your list columns with numbers show the Sum icon in the list on the right hand side of the screen.  For any that don't, fix this by clicking the column header in the table view, clicking the *Modeling* tab, then changing the Data type dropdown to Decimal Number or Whole Number, depending on your situation.  If prompted to confirm your change, click *Yes*.  If your number is a special format, like currency, you can also choose that by setting the 'Format'.
+3. On the left hand side, click the *Reprot* icon.
+4. Select columns you want to visualize by clicking the checkbox beside them on the right hand side of the screen.
+5. Change the visual type if you need to.
+6. You can create multiple visualizations in the same report by unselecting the existing visual then clicking checkboxes for new columns.
+7. Click *Save* to save your report.
